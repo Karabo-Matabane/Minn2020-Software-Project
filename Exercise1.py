@@ -1,3 +1,4 @@
+import math
 # Print a program that computes and prints the results of the equation below.
 sub_1 = 94 - 17
 sub_2 = 415 - 319
@@ -8,8 +9,6 @@ print(div, '\n')
 Num = int(input("Enter number: "))
 Num1 = Num ** 0.5
 print('The square of ', Num, 'is ', Num1, '\n')
-import math
-
 n = float(input('Enter number: '))
 n2 = math.sqrt(n)
 print('The square of ', n, 'is ', n2, '\n')
@@ -55,9 +54,6 @@ print(nn[0:4])
 print(nn[-1:-5])
 print(nn[::-1])
 print(nn[5])
-print(nn[1:-2])
+print(nn[1:-1])
 print(nn.upper())
 print(nn.replace('a', 'e'))
-
-
-
