@@ -129,3 +129,6 @@ print(set_4 & set5)
 # Remove items from set1 that are not common to both set1 and set2
 set_5 = {10, 20, 30, 40, 50}
 set6 = {30, 40, 50, 60, 70}
+set_5.intersection_update(set6)
+print(set_5)
+
