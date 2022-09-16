@@ -59,6 +59,8 @@ tuple3 = (50, 10, 60, 70, 50)
 # Two lists converted into a dictionary
 keys = ['Ten', 'Twenty', 'Thirty']
 values = [10, 20, 30]
+New_dict = dict(zip(keys, values))
+print(New_dict)
 
 # Merging two dictionaries into one
 dict1 = {'Ten': 10, 'Twenty': 20, 'Thirty': 30}
@@ -131,4 +133,3 @@ set_5 = {10, 20, 30, 40, 50}
 set6 = {30, 40, 50, 60, 70}
 set_5.intersection_update(set6)
 print(set_5)
-
